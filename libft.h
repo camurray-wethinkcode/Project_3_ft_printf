@@ -6,7 +6,7 @@
 /*   By: camurray <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/18 18:58:56 by camurray          #+#    #+#             */
-/*   Updated: 2019/07/18 20:40:55 by camurray         ###   ########.fr       */
+/*   Updated: 2019/10/02 01:05:06 by camurray         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@
 # include <wchar.h>
 # include <wctype.h>
 # include <stdint.h>
+# include <unistd.h>
 
 # define FLSIZ(x) x == 'j' || x == 'z' || x == '#' || x == 'l' || x == 'h'
 # define FL2(x) x == ' ' || (x != 44 && x != 47 && x > 41 && x < 58) || x == 'L'
@@ -92,5 +93,9 @@ void    *ft_memcpy(void *dst, const void *src, size_t n);
 size_t  ft_strnlen(const char *str, size_t maxlen);
 int            ft_copyuntil(char **dst, char *src, char c);
 char    *ft_strnew(size_t size);
+void	ft_putchar(char c);
+void	ft_putnbr(int nb);
+void	ft_putcolor(char *str, char *color);
+void	ft_putstr(char *s);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: camurray <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/18 18:31:02 by camurray          #+#    #+#             */
-/*   Updated: 2019/07/18 20:42:25 by camurray         ###   ########.fr       */
+/*   Updated: 2019/10/02 01:00:32 by camurray         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -134,6 +134,7 @@ int		ft_printf(const char *format, ...)
 	char	*tone;
 	int		index;
 	char	*helpme;
+	char	*string;
 
     va_start(varg, format);
     if (ft_strchr(format, '%'))
@@ -180,6 +181,132 @@ int		ft_printf(const char *format, ...)
 		}
 		i[0] += 1;
 	}
+	/*figure out my i array*/
+	string = "i[0]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[0]);
+	ft_putchar('\n');
+	string = "i[1]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[1]);
+	ft_putchar('\n');
+	string = "i[2]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[2]);
+	ft_putchar('\n');
+	string = "i[3]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[3]);
+	ft_putchar('\n');
+	string = "i[4]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[4]);
+	ft_putchar('\n');
+	string = "i[5]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[5]);
+	ft_putchar('\n');
+	string = "i[6]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[6]);
+	ft_putchar('\n');
+	string = "i[7]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[7]);
+	ft_putchar('\n');
+	string = "i[8]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[8]);
+	ft_putchar('\n');
+	string = "i[9]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[9]);
+	ft_putchar('\n');
+	string = "i[10]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[10]);
+	ft_putchar('\n');
+	string = "i[11]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[11]);
+	ft_putchar('\n');
+	string = "i[12]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[12]);
+	ft_putchar('\n');
+	string = "i[13]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[13]);
+	ft_putchar('\n');
+	string = "i[14]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[14]);
+	ft_putchar('\n');
+	string = "i[15]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[15]);
+	ft_putchar('\n');
+	string = "i[16]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[16]);
+	ft_putchar('\n');
+	string = "i[17]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[17]);
+	ft_putchar('\n');
+	string = "i[18]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[18]);
+	ft_putchar('\n');
+	string = "i[19]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[19]);
+	ft_putchar('\n');
+	string = "i[20]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[20]);
+	ft_putchar('\n');
+	string = "i[21]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[21]);
+	ft_putchar('\n');
+	string = "i[22]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[22]);
+	ft_putchar('\n');
+	string = "i[23]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[23]);
+	ft_putchar('\n');
+	string = "i[24]";
+	ft_putcolor(string, "RED");
+	ft_putchar('\n');
+	ft_putnbr(i[24]);
+	ft_putchar('\n');
 	va_end(varg);
 	return (i[1]);
 }
